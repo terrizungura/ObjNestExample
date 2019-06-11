@@ -1,0 +1,66 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6531077191982160377",
+      "lastPropertyId": "3:8629785169465500209",
+      "name": "Projects",
+      "properties": [
+        {
+          "id": "1:4491573670000977846",
+          "name": "id"
+        },
+        {
+          "id": "2:9164829020868300075",
+          "name": "projectName"
+        },
+        {
+          "id": "3:8629785169465500209",
+          "name": "projectOwner"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:658308621874656853",
+      "lastPropertyId": "5:7462294758082555156",
+      "name": "Report",
+      "properties": [
+        {
+          "id": "1:9169342321047262170",
+          "name": "id"
+        },
+        {
+          "id": "2:1415499203164227412",
+          "name": "projectName"
+        },
+        {
+          "id": "3:6303958849009872447",
+          "name": "projectOwner"
+        },
+        {
+          "id": "4:2855080807671175835",
+          "name": "agentName"
+        },
+        {
+          "id": "5:7462294758082555156",
+          "name": "location"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:658308621874656853",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
